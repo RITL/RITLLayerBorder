@@ -31,27 +31,27 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     #pragma mark - SimpleBorder
-    [self.left ritl_addBorderWithColor:UIColor.blackColor BodrerWidth:5 direction:RITLBorderDirectionLeft];
+    [self.left ritl_addBorderWithColor:UIColor.blackColor BodrerWidth:2 direction:RITLBorderDirectionLeft];
     
     
-    [self.top ritl_addBorderWithColor:UIColor.orangeColor BodrerWidth:5 direction:RITLBorderDirectionTop];
+    [self.top ritl_addBorderWithColor:UIColor.orangeColor BodrerWidth:2 direction:RITLBorderDirectionTop];
     
     
-    [self.right ritl_addBorderWithColor:UIColor.greenColor BodrerWidth:5 direction:RITLBorderDirectionRight];
+    [self.right ritl_addBorderWithColor:UIColor.greenColor BodrerWidth:2 direction:RITLBorderDirectionRight];
     
     
-    [self.bottom ritl_addBorderWithColor:UIColor.yellowColor BodrerWidth:5 direction:RITLBorderDirectionBottom];
+    [self.bottom ritl_addBorderWithColor:UIColor.yellowColor BodrerWidth:2 direction:RITLBorderDirectionBottom];
     
     
     #pragma mark -
-    [self.leftRight ritl_addBorderWithColor:UIColor.cyanColor BodrerWidth:5 direction:RITLBorderDirectionLeft|RITLBorderDirectionRight];
+    [self.leftRight ritl_addBorderWithColor:UIColor.cyanColor BodrerWidth:2 direction:RITLBorderDirectionLeft|RITLBorderDirectionRight];
     
-    [self.topBottom ritl_addBorderWithColor:UIColor.purpleColor BodrerWidth:4 direction:RITLBorderDirectionTop|RITLBorderDirectionBottom];
+    [self.topBottom ritl_addBorderWithColor:UIColor.purpleColor BodrerWidth:2 direction:RITLBorderDirectionTop|RITLBorderDirectionBottom];
     
     
-    [self.custom ritl_addBorderWithColor:UIColor.orangeColor BodrerWidth:2 direction:RITLBorderDirectionLeft];
+    [self.custom ritl_addBorderWithColor:UIColor.orangeColor BodrerWidth:1.5 direction:RITLBorderDirectionLeft];
     [self.custom ritl_addBorderWithColor:UIColor.blueColor BodrerWidth:1 direction:RITLBorderDirectionTop];
-    [self.custom ritl_addBorderWithColor:UIColor.redColor BodrerWidth:3 direction:RITLBorderDirectionBottom];
+    [self.custom ritl_addBorderWithColor:UIColor.redColor BodrerWidth:2 direction:RITLBorderDirectionBottom];
     
 }
 
