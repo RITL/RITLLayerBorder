@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/RITL/UIView-RITLBorder.git", :tag => s.version }
+  s.source_files = "UIView+RITLBorder/**/*.{h,m}"
 
   s.frameworks   = 'Foundation', 'UIKit'
   s.requires_arc = true
