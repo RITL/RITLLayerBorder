@@ -14,7 +14,7 @@
 		DB9F5BF92007101900B870EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9F5BF72007101900B870EC /* LaunchScreen.storyboard */; };
 		DB9F5BFC2007101900B870EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9F5BFB2007101900B870EC /* main.m */; };
 		DB9F5C052007104100B870EC /* UIView+RITLBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9F5C042007104100B870EC /* UIView+RITLBorder.m */; };
-		DB9F5C082007440300B870EC /* preView.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9F5C072007440200B870EC /* preView.png */; };
+		DB9F5C082007440300B870EC /* PreView.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9F5C072007440200B870EC /* PreView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		DB9F5BFB2007101900B870EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB9F5C032007104100B870EC /* UIView+RITLBorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RITLBorder.h"; sourceTree = "<group>"; };
 		DB9F5C042007104100B870EC /* UIView+RITLBorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RITLBorder.m"; sourceTree = "<group>"; };
-		DB9F5C072007440200B870EC /* preView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preView.png; sourceTree = "<group>"; };
+		DB9F5C072007440200B870EC /* PreView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		DB9F5C062007440200B870EC /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				DB9F5C072007440200B870EC /* preView.png */,
+				DB9F5C072007440200B870EC /* PreView.png */,
 			);
 			path = Assets;
 			sourceTree = SOURCE_ROOT;
@@ -153,7 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9F5C082007440300B870EC /* preView.png in Resources */,
+				DB9F5C082007440300B870EC /* PreView.png in Resources */,
 				DB9F5BF92007101900B870EC /* LaunchScreen.storyboard in Resources */,
 				DB9F5BF62007101900B870EC /* Assets.xcassets in Resources */,
 				DB9F5BF42007101900B870EC /* Main.storyboard in Resources */,

@@ -1,6 +1,13 @@
 # UIView-RITLBorder
 为UIView追加单向border, 适配autoLayout
 
+```
+pod 'UIView+RITLBorders'
+
+//如果 pod install 不能安装，请使用pod update 尝试
+```
+
+
 使用比较简单
 
 - 提供的对外接口
