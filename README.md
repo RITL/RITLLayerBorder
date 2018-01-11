@@ -3,6 +3,8 @@
 
 使用比较简单
 
+- 提供的对外接口
+
 ```
 /// 提供了一些比较通用的对外方法
 /// 单边设置border
@@ -42,9 +44,10 @@
 
 ```
 
-![preView](https://github.com/RITL/UIView-RITLBorder/blob/master/Assets/preView.png)
+<div align="center"><img src="https://github.com/RITL/UIView-RITLBorder/blob/master/Assets/preView.png" height=500></img></div>
 
 
+- Demo中实现的代码:
 ```
 - (void)viewDidLoad {
     [super viewDidLoad];
