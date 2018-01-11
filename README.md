@@ -51,7 +51,7 @@ pod 'UIView+RITLBorders'
 
 ```
 
-<div align="center"><img src="https://github.com/RITL/UIView-RITLBorder/blob/master/Assets/preView.png" height=500></img></div>
+<div align="center"><img src="https://github.com/RITL/UIView-RITLBorder/blob/master/Assets/PreView.png" height=500></img></div>
 
 
 - Demo中实现的代码:
