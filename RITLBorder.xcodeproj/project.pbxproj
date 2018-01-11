@@ -13,6 +13,7 @@
 		DB9F5BF62007101900B870EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9F5BF52007101900B870EC /* Assets.xcassets */; };
 		DB9F5BF92007101900B870EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9F5BF72007101900B870EC /* LaunchScreen.storyboard */; };
 		DB9F5BFC2007101900B870EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9F5BFB2007101900B870EC /* main.m */; };
+		DB9F5C052007104100B870EC /* UIView+RITLBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9F5C042007104100B870EC /* UIView+RITLBorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DB9F5BF82007101900B870EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB9F5BFA2007101900B870EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9F5BFB2007101900B870EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB9F5C032007104100B870EC /* UIView+RITLBorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RITLBorder.h"; sourceTree = "<group>"; };
+		DB9F5C042007104100B870EC /* UIView+RITLBorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RITLBorder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		DB9F5BEB2007101900B870EC /* RITLBorder */ = {
 			isa = PBXGroup;
 			children = (
+				DB9F5C022007102B00B870EC /* UIView+RITLBorder */,
 				DB9F5BEC2007101900B870EC /* AppDelegate.h */,
 				DB9F5BED2007101900B870EC /* AppDelegate.m */,
 				DB9F5BEF2007101900B870EC /* ViewController.h */,
@@ -70,6 +74,15 @@
 			);
 			path = RITLBorder;
 			sourceTree = "<group>";
+		};
+		DB9F5C022007102B00B870EC /* UIView+RITLBorder */ = {
+			isa = PBXGroup;
+			children = (
+				DB9F5C032007104100B870EC /* UIView+RITLBorder.h */,
+				DB9F5C042007104100B870EC /* UIView+RITLBorder.m */,
+			);
+			path = "UIView+RITLBorder";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -145,6 +158,7 @@
 				DB9F5BF12007101900B870EC /* ViewController.m in Sources */,
 				DB9F5BFC2007101900B870EC /* main.m in Sources */,
 				DB9F5BEE2007101900B870EC /* AppDelegate.m in Sources */,
+				DB9F5C052007104100B870EC /* UIView+RITLBorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
